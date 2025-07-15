@@ -155,7 +155,7 @@ const Sidebar = ({ onToggle, activePath = '/' }: SidebarProps) => {
       label: '综艺',
       href: '/douban?type=tv&tag=综艺&title=综艺',
     },
-    { icon: Panda, label: '国产剧', href: '/douban?type=tv&tag=国产剧' },
+    { icon: VenetianMask, label: '国产剧', href: '/douban?type=tv&tag=国产剧' },
     { icon: Swords, label: '美剧', href: '/douban?type=tv&tag=美剧' },
     {
       icon: MessageCircleHeart,
@@ -163,7 +163,7 @@ const Sidebar = ({ onToggle, activePath = '/' }: SidebarProps) => {
       href: '/douban?type=tv&tag=韩剧',
     },
     { icon: MountainSnow, label: '日剧', href: '/douban?type=tv&tag=日剧' },
-    { icon: VenetianMask, label: '日漫', href: '/douban?type=tv&tag=日本动画' },
+    /*{ icon: VenetianMask, label: '日漫', href: '/douban?type=tv&tag=日本动画' },*/
   ];
 
   return (
