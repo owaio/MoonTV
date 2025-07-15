@@ -155,7 +155,7 @@ const Sidebar = ({ onToggle, activePath = '/' }: SidebarProps) => {
       label: '综艺',
       href: '/douban?type=tv&tag=综艺&title=综艺',
     },
-    { icon: panda, label: '国产剧', href: '/douban?type=tv&tag=国产剧' },
+    { icon: Panda, label: '国产剧', href: '/douban?type=tv&tag=国产剧' },
     { icon: Swords, label: '美剧', href: '/douban?type=tv&tag=美剧' },
     {
       icon: MessageCircleHeart,
